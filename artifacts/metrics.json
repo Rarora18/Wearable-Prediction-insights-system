@@ -1,0 +1,91 @@
+{
+  "roc_auc": 0.9910204081632653,
+  "n_rows": 2500,
+  "n_features": 23,
+  "n_users": 250,
+  "positive_rate": 0.1072,
+  "top_positive_coef": [
+    {
+      "feature": "hr_std",
+      "coef": 2.8416685074928476
+    },
+    {
+      "feature": "steps_night",
+      "coef": 2.1355064047280634
+    },
+    {
+      "feature": "intensity_evening",
+      "coef": 1.5625115623445578
+    },
+    {
+      "feature": "hr_p90",
+      "coef": 0.9188242699876926
+    },
+    {
+      "feature": "hrv_rmssd_proxy_mean",
+      "coef": 0.7824175827579888
+    },
+    {
+      "feature": "sleep_fraction",
+      "coef": 0.5329358150268118
+    },
+    {
+      "feature": "dow",
+      "coef": 0.34579313079375107
+    },
+    {
+      "feature": "deep_fraction",
+      "coef": 0.09170506451472722
+    },
+    {
+      "feature": "hr_mean",
+      "coef": 0.07645283516298818
+    },
+    {
+      "feature": "hr_night_mean",
+      "coef": 0.07070099322010145
+    }
+  ],
+  "top_negative_coef": [
+    {
+      "feature": "hr_night_std",
+      "coef": -0.0876369713241954
+    },
+    {
+      "feature": "rem_fraction",
+      "coef": -0.19604646652400587
+    },
+    {
+      "feature": "intensity_p90",
+      "coef": -0.5072415943440038
+    },
+    {
+      "feature": "steps_per_intensity",
+      "coef": -0.580907797411723
+    },
+    {
+      "feature": "circadian_misalignment_proxy",
+      "coef": -0.6436675311059279
+    },
+    {
+      "feature": "steps_total",
+      "coef": -0.7133422289034448
+    },
+    {
+      "feature": "hr_p10",
+      "coef": -0.8674400019189168
+    },
+    {
+      "feature": "intensity_mean",
+      "coef": -1.1263195561394774
+    },
+    {
+      "feature": "hr_roll_std_mean",
+      "coef": -1.3092480401962732
+    },
+    {
+      "feature": "hrv_rmssd_proxy_night",
+      "coef": -4.203725979917478
+    }
+  ]
+}

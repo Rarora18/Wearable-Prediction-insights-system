@@ -1,0 +1,27 @@
+{
+  "feature_names": [
+    "hr_mean",
+    "hr_std",
+    "hr_p10",
+    "hr_p90",
+    "hr_night_mean",
+    "hr_night_std",
+    "hrv_rmssd_proxy_mean",
+    "hrv_rmssd_proxy_night",
+    "hr_roll_std_mean",
+    "steps_total",
+    "steps_night",
+    "intensity_mean",
+    "intensity_p90",
+    "intensity_evening",
+    "night_fraction",
+    "dow",
+    "sleep_fraction",
+    "deep_fraction",
+    "rem_fraction",
+    "steps_per_intensity",
+    "restlessness_proxy",
+    "hr_night_minus_day",
+    "circadian_misalignment_proxy"
+  ]
+}
